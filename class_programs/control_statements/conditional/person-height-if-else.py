@@ -1,1 +1,0 @@
-# WAP to check the tall person based on person height
