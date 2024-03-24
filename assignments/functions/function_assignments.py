@@ -7,3 +7,4 @@ input: [2, 0, 1, 34, 0, 900]
 output: [2, 1, 34, 900, 0, 0]
 """
 
+# write a java program to find the fibonacci series using recursive and non recursive functions
