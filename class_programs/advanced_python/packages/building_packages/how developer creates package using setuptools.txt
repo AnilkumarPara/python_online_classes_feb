@@ -1,0 +1,23 @@
+1. Organize Your Project Structure
+2. Write the setup.py Script
+	i. setup.py is where you define your package’s metadata and dependencies.
+3. Include Additional Metadata
+	i. README.md: A Markdown file with a description of your package.
+	ii. LICENSE: A file specifying the license under which your package is released.
+4. Build Your Package
+	python setup.py sdist bdist_wheel
+	This command creates:
+	i. A source distribution (sdist).
+	ii. A built distribution (a wheel file, bdist_wheel).
+5. Testing the Package Locally
+	Before distributing, you might want to install and test the package locally:
+	pip install .
+	This installs the package from the current directory.
+6. Distribute Your Package
+You can distribute the package by uploading it to PyPI. You'll need tools like twine
+	twine upload dist/*
+	Ensure you have an account on PyPI.
+7. Continuous Integration
+Optionally, you can automate building and distributing with CI/CD tools
+like GitHub Actions or GitLab CI.
+
