@@ -1,0 +1,7 @@
+2023-03-15T08:45:01.234Z - INFO - User admin accessed system successfully.
+2023-03-15T08:45:05.678Z - ERROR - Failed access attempt by user john_doe.
+2023-03-15T08:45:06.789Z - INFO - User jane_doe accessed system successfully.
+2023-03-15T08:45:07.890Z - ERROR - Failed access attempt by user jane_doe.
+2023-03-15T08:45:10.123Z - INFO - Backup completed successfully.
+2023-03-15T08:45:15.456Z - WARNING - Unusually high traffic detected.
+2023-03-15T08:45:20.678Z - ERROR - Failed access attempt by user max_payne.
